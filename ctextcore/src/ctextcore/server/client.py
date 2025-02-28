@@ -113,8 +113,8 @@ class RobustService(object):
                 raise AssertionError('ERROR: Could not launch java as expected. Please review java installation.' +
                                      ' If the error persists, please log an issue on github.') from e
             except FileNotFoundError as e:
-                raise FileNotFoundError("When trying to run CTexTCoreTech, a FileNotFoundError occurred, \
-                                        which frequently means Java was not installed or was not in the classpath.") from e
+                raise FileNotFoundError('When trying to run CTexTCoreTech, a FileNotFoundError occurred, ' + 
+                                        'which frequently means Java was not installed or was not in the classpath.') from e
 
     def atexit_kill(self):
         # make some kind of effort to stop the service (such as a
@@ -362,12 +362,14 @@ class CTexTCoreTechClient(RobustService):
         self.ensure_alive()
         r = self.__request__(None, {'updates': 'true'}, False, **kwargs)
         temp = r.json()
-        if("empty" in temp) :
+        if(len(temp) == 0) :
             print("No updates available.")
             return
         else:
-            for tech, lang, ver in temp.items():
-                print("Version {0} is avilable for {1} {2}".format(str(ver),str(tech),str(lang)))
+            for updates in temp:
+                for technology in updates:
+                    for language, version in updates[technology].items():
+                        print("Version {0} is avilable for {1} {2}".format(str(version),str(technology),str(language)))
             return
 
     def annotate(self, text: Union[str, Path], annotator: str=None, lang:str =None, line_level: bool=True,

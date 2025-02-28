@@ -7,32 +7,33 @@
             "p": [
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "N09",
+                      "pos": "FOR",
                       "end_char": 2,
                       "id": 1,
                       "text": "RE"
                     },
                     {
                       "start_char": 3,
-                      "pos": "CPOSS06",
+                      "pos": "FOR",
                       "end_char": 4,
                       "id": 2,
                       "text": "A"
                     },
                     {
                       "start_char": 5,
-                      "pos": "INF",
+                      "pos": "FOR",
                       "end_char": 7,
                       "id": 3,
                       "text": "GO"
                     },
                     {
                       "start_char": 8,
-                      "pos": "V",
+                      "pos": "FOR",
                       "end_char": 14,
                       "id": 4,
                       "text": "DIRELA"
@@ -42,6 +43,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -70,11 +72,12 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "PARTQUE",
+                      "pos": "V",
                       "end_char": 3,
                       "id": 1,
                       "text": "Naa"
@@ -88,7 +91,7 @@
                     },
                     {
                       "start_char": 23,
-                      "pos": "CPOSS07",
+                      "pos": "POSSC07",
                       "end_char": 25,
                       "id": 3,
                       "text": "sa"
@@ -102,14 +105,14 @@
                     },
                     {
                       "start_char": 35,
-                      "pos": "CPOSS07",
+                      "pos": "POSSC07",
                       "end_char": 37,
                       "id": 5,
                       "text": "sa"
                     },
                     {
                       "start_char": 38,
-                      "pos": "N09",
+                      "pos": "NLOC",
                       "end_char": 45,
                       "id": 6,
                       "text": "Gauteng"
@@ -123,7 +126,7 @@
                     },
                     {
                       "start_char": 47,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 50,
                       "id": 8,
                       "text": "GEP"
@@ -144,7 +147,7 @@
                     },
                     {
                       "start_char": 55,
-                      "pos": "QUE",
+                      "pos": "INTER",
                       "end_char": 58,
                       "id": 11,
                       "text": "eng"
@@ -161,6 +164,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -172,7 +176,7 @@
                     },
                     {
                       "start_char": 19,
-                      "pos": "CPOSS07",
+                      "pos": "POSSC07",
                       "end_char": 21,
                       "id": 2,
                       "text": "sa"
@@ -186,14 +190,14 @@
                     },
                     {
                       "start_char": 31,
-                      "pos": "CPOSS07",
+                      "pos": "POSSC07",
                       "end_char": 33,
                       "id": 4,
                       "text": "sa"
                     },
                     {
                       "start_char": 34,
-                      "pos": "N09",
+                      "pos": "NLOC",
                       "end_char": 41,
                       "id": 5,
                       "text": "Gauteng"
@@ -207,7 +211,7 @@
                     },
                     {
                       "start_char": 43,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 46,
                       "id": 7,
                       "text": "GEP"
@@ -235,14 +239,14 @@
                     },
                     {
                       "start_char": 58,
-                      "pos": "CD07",
+                      "pos": "DEM07",
                       "end_char": 61,
                       "id": 11,
                       "text": "seo"
                     },
                     {
                       "start_char": 62,
-                      "pos": "CS07",
+                      "pos": "SC07",
                       "end_char": 64,
                       "id": 12,
                       "text": "se"
@@ -270,7 +274,7 @@
                     },
                     {
                       "start_char": 85,
-                      "pos": "CPOSS03",
+                      "pos": "POSSC03",
                       "end_char": 87,
                       "id": 16,
                       "text": "wa"
@@ -284,7 +288,7 @@
                     },
                     {
                       "start_char": 100,
-                      "pos": "CPOSS03",
+                      "pos": "POSSC03",
                       "end_char": 102,
                       "id": 18,
                       "text": "wa"
@@ -319,7 +323,7 @@
                     },
                     {
                       "start_char": 120,
-                      "pos": "CPOSS17",
+                      "pos": "POSSC17",
                       "end_char": 122,
                       "id": 23,
                       "text": "ga"
@@ -333,7 +337,7 @@
                     },
                     {
                       "start_char": 130,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 132,
                       "id": 25,
                       "text": "ya"
@@ -347,7 +351,7 @@
                     },
                     {
                       "start_char": 139,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 141,
                       "id": 27,
                       "text": "ya"
@@ -361,7 +365,7 @@
                     },
                     {
                       "start_char": 152,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 154,
                       "id": 29,
                       "text": "ya"
@@ -396,7 +400,7 @@
                     },
                     {
                       "start_char": 175,
-                      "pos": "CD09",
+                      "pos": "DEM09",
                       "end_char": 177,
                       "id": 34,
                       "text": "ye"
@@ -410,7 +414,7 @@
                     },
                     {
                       "start_char": 185,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 187,
                       "id": 36,
                       "text": "ya"
@@ -452,7 +456,7 @@
                     },
                     {
                       "start_char": 215,
-                      "pos": "INF",
+                      "pos": "PART",
                       "end_char": 217,
                       "id": 42,
                       "text": "go"
@@ -480,7 +484,7 @@
                     },
                     {
                       "start_char": 244,
-                      "pos": "CPOSS10",
+                      "pos": "POSSC10",
                       "end_char": 247,
                       "id": 46,
                       "text": "tša"
@@ -508,7 +512,7 @@
                     },
                     {
                       "start_char": 269,
-                      "pos": "CD10",
+                      "pos": "DEM10",
                       "end_char": 272,
                       "id": 50,
                       "text": "tše"
@@ -529,7 +533,7 @@
                     },
                     {
                       "start_char": 281,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 285,
                       "id": 53,
                       "text": "SMME"
@@ -557,14 +561,14 @@
                     },
                     {
                       "start_char": 304,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 306,
                       "id": 57,
                       "text": "ya"
                     },
                     {
                       "start_char": 307,
-                      "pos": "N01a",
+                      "pos": "FOR",
                       "end_char": 314,
                       "id": 58,
                       "text": "Gauteng"
@@ -585,7 +589,7 @@
                     },
                     {
                       "start_char": 325,
-                      "pos": "CPOSS06",
+                      "pos": "POSSC06",
                       "end_char": 326,
                       "id": 61,
                       "text": "a"
@@ -606,14 +610,14 @@
                     },
                     {
                       "start_char": 341,
-                      "pos": "CD06",
+                      "pos": "DEM06",
                       "end_char": 343,
                       "id": 64,
                       "text": "ao"
                     },
                     {
                       "start_char": 344,
-                      "pos": "CS06",
+                      "pos": "SC06",
                       "end_char": 345,
                       "id": 65,
                       "text": "a"
@@ -627,7 +631,7 @@
                     },
                     {
                       "start_char": 351,
-                      "pos": "CPOSS06",
+                      "pos": "POSSC06",
                       "end_char": 352,
                       "id": 67,
                       "text": "a"
@@ -651,6 +655,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -683,28 +688,28 @@
                     },
                     {
                       "start_char": 17,
-                      "pos": "CPOSS05",
+                      "pos": "POSSC05",
                       "end_char": 19,
                       "id": 5,
                       "text": "la"
                     },
                     {
                       "start_char": 20,
-                      "pos": "QUE",
+                      "pos": "INTER",
                       "end_char": 23,
                       "id": 6,
                       "text": "eng"
                     },
                     {
                       "start_char": 24,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 27,
                       "id": 7,
                       "text": "GEP"
                     },
                     {
                       "start_char": 28,
-                      "pos": "CS09",
+                      "pos": "SC09",
                       "end_char": 29,
                       "id": 8,
                       "text": "e"

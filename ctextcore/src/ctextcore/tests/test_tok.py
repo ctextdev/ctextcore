@@ -38,9 +38,31 @@ languages = ["af", "nso", "nr", "ss", "st", "tn", "ts", "ve", "xh", "zu"]
 levels = ["line","file"]
 formats = ["json", "list", "delimited"]
 
-LOGGER.info("Testing Tokeniser for the  followig languages: {0}".format(languages))
+LOGGER.info("Testing Tokeniser for the followig languages: {0}".format(languages))
+
+def download_tok_model(lang, server, retry_count=1):
+    """
+    Downloads Tokeniser model if not available, with retries.
+    """
+    for attempt_count in range(retry_count + 1):
+        # Get updated list of available technologies 
+        technologies = server.list_available_techs()
+        print(technologies)
+        if lang in technologies.get("tok", []):
+            print(f"Tokeniser model for language {lang} is already available.")
+            return
+        print(f"{'Attempting' if attempt_count == 0 else 'Retrying'} download of Tokeniser model for language: {lang}, Attempt {attempt_count+1}")
+        try:
+            server.download_model(language=lang, tech="tok")
+            print("Download successful.")
+            return
+        except Exception as e:
+            print(f"Error occurred: {e}")
+            if attempt_count == retry_count:
+                print("Max retry attempts reached. Download failed.")
 
 for lang in languages:
+    download_tok_model(lang, server, retry_count=1)
     #if lang not in technologies["tok"]:
     #    LOGGER.warning("Could not test {0} for {1} because the model is not installed yet".format("tok",lang))
     #    continue

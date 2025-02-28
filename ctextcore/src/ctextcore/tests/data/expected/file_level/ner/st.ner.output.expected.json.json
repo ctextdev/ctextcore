@@ -6,10 +6,12 @@
           "doc": {
             "p": [
               {
-                "lid": "NONE"
+                "lid": "NONE",
+                "tokenised": false
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -22,7 +24,7 @@
                     },
                     {
                       "start_char": 14,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 16,
                       "ner": "OUT",
                       "id": 2,
@@ -30,7 +32,7 @@
                     },
                     {
                       "start_char": 17,
-                      "pos": "PROPOSSPERS",
+                      "pos": "N09",
                       "end_char": 20,
                       "ner": "OUT",
                       "id": 3,
@@ -41,6 +43,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -72,11 +75,12 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "RL",
+                      "pos": "V",
                       "end_char": 3,
                       "ner": "OUT",
                       "id": 1,
@@ -84,7 +88,7 @@
                     },
                     {
                       "start_char": 4,
-                      "pos": "VCOP",
+                      "pos": "PART",
                       "end_char": 6,
                       "ner": "OUT",
                       "id": 2,
@@ -92,7 +96,7 @@
                     },
                     {
                       "start_char": 7,
-                      "pos": "ADJ06",
+                      "pos": "N01a",
                       "end_char": 11,
                       "ner": "OUT",
                       "id": 3,
@@ -111,29 +115,30 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "N09",
+                      "pos": "V",
                       "end_char": 7,
-                      "ner": "B-ORG",
+                      "ner": "OUT",
                       "id": 1,
                       "text": "Gauteng"
                     },
                     {
                       "start_char": 8,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 18,
-                      "ner": "I-ORG",
+                      "ner": "OUT",
                       "id": 2,
                       "text": "Enterprise"
                     },
                     {
                       "start_char": 19,
-                      "pos": "RV",
+                      "pos": "FOR",
                       "end_char": 28,
-                      "ner": "I-ORG",
+                      "ner": "OUT",
                       "id": 3,
                       "text": "Propeller"
                     },
@@ -147,7 +152,7 @@
                     },
                     {
                       "start_char": 30,
-                      "pos": "RL",
+                      "pos": "ABBR",
                       "end_char": 33,
                       "ner": "B-ORG",
                       "id": 5,
@@ -163,7 +168,7 @@
                     },
                     {
                       "start_char": 35,
-                      "pos": "PART",
+                      "pos": "VCOP",
                       "end_char": 37,
                       "ner": "OUT",
                       "id": 7,
@@ -179,7 +184,7 @@
                     },
                     {
                       "start_char": 45,
-                      "pos": "CPOSS05",
+                      "pos": "POSSC05",
                       "end_char": 47,
                       "ner": "I-ORG",
                       "id": 9,
@@ -195,7 +200,7 @@
                     },
                     {
                       "start_char": 56,
-                      "pos": "CS05",
+                      "pos": "PART",
                       "end_char": 58,
                       "ner": "OUT",
                       "id": 11,
@@ -211,7 +216,7 @@
                     },
                     {
                       "start_char": 65,
-                      "pos": "CPOSS05",
+                      "pos": "SC05",
                       "end_char": 67,
                       "ner": "OUT",
                       "id": 13,
@@ -243,7 +248,7 @@
                     },
                     {
                       "start_char": 84,
-                      "pos": "CPOSS03",
+                      "pos": "POSSC03",
                       "end_char": 86,
                       "ner": "I-ORG",
                       "id": 17,
@@ -259,7 +264,7 @@
                     },
                     {
                       "start_char": 96,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 98,
                       "ner": "I-ORG",
                       "id": 19,
@@ -299,7 +304,7 @@
                     },
                     {
                       "start_char": 120,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 122,
                       "ner": "OUT",
                       "id": 24,
@@ -315,7 +320,7 @@
                     },
                     {
                       "start_char": 131,
-                      "pos": "CPOSS05",
+                      "pos": "POSSC05",
                       "end_char": 133,
                       "ner": "I-ORG",
                       "id": 26,
@@ -331,7 +336,7 @@
                     },
                     {
                       "start_char": 147,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 149,
                       "ner": "I-ORG",
                       "id": 28,
@@ -371,7 +376,7 @@
                     },
                     {
                       "start_char": 167,
-                      "pos": "CS07",
+                      "pos": "SC07",
                       "end_char": 169,
                       "ner": "OUT",
                       "id": 33,
@@ -387,7 +392,7 @@
                     },
                     {
                       "start_char": 180,
-                      "pos": "CPOSS07",
+                      "pos": "POSSC07",
                       "end_char": 182,
                       "ner": "OUT",
                       "id": 35,
@@ -395,7 +400,7 @@
                     },
                     {
                       "start_char": 183,
-                      "pos": "CN15",
+                      "pos": "NPRE",
                       "end_char": 185,
                       "ner": "OUT",
                       "id": 36,
@@ -443,7 +448,7 @@
                     },
                     {
                       "start_char": 220,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 222,
                       "ner": "OUT",
                       "id": 42,
@@ -451,7 +456,7 @@
                     },
                     {
                       "start_char": 223,
-                      "pos": "RK",
+                      "pos": "ABBR",
                       "end_char": 227,
                       "ner": "B-ORG",
                       "id": 43,
@@ -483,7 +488,7 @@
                     },
                     {
                       "start_char": 245,
-                      "pos": "CPOSS09",
+                      "pos": "POSSC09",
                       "end_char": 247,
                       "ner": "I-LOC",
                       "id": 47,
@@ -515,7 +520,7 @@
                     },
                     {
                       "start_char": 266,
-                      "pos": "CPOSS04",
+                      "pos": "POSSC04",
                       "end_char": 268,
                       "ner": "OUT",
                       "id": 51,
@@ -531,7 +536,7 @@
                     },
                     {
                       "start_char": 281,
-                      "pos": "CPOSS10",
+                      "pos": "POSSC10",
                       "end_char": 284,
                       "ner": "OUT",
                       "id": 53,
@@ -555,7 +560,7 @@
                     },
                     {
                       "start_char": 297,
-                      "pos": "CD10",
+                      "pos": "DEM10",
                       "end_char": 301,
                       "ner": "OUT",
                       "id": 56,
@@ -571,7 +576,7 @@
                     },
                     {
                       "start_char": 308,
-                      "pos": "CPOSS10",
+                      "pos": "POSSC10",
                       "end_char": 311,
                       "ner": "OUT",
                       "id": 58,

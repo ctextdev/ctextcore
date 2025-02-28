@@ -3,10 +3,12 @@
     "doc": {
       "p": [
         {
-          "lid": "NONE"
+          "lid": "NONE",
+          "tokenised": true
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -18,14 +20,14 @@
               },
               {
                 "start_char": 14,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 16,
                 "id": 2,
                 "text": "YA"
               },
               {
                 "start_char": 17,
-                "pos": "PROPOSSPERS",
+                "pos": "N09",
                 "end_char": 20,
                 "id": 3,
                 "text": "HAO"
@@ -35,6 +37,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -63,25 +66,26 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "RL",
+                "pos": "V",
                 "end_char": 3,
                 "id": 1,
                 "text": "GEP"
               },
               {
                 "start_char": 4,
-                "pos": "VCOP",
+                "pos": "PART",
                 "end_char": 6,
                 "id": 2,
                 "text": "ke"
               },
               {
                 "start_char": 7,
-                "pos": "ADJ06",
+                "pos": "N01a",
                 "end_char": 11,
                 "id": 3,
                 "text": "mang"
@@ -98,25 +102,26 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "N09",
+                "pos": "V",
                 "end_char": 7,
                 "id": 1,
                 "text": "Gauteng"
               },
               {
                 "start_char": 8,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 18,
                 "id": 2,
                 "text": "Enterprise"
               },
               {
                 "start_char": 19,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 28,
                 "id": 3,
                 "text": "Propeller"
@@ -130,7 +135,7 @@
               },
               {
                 "start_char": 30,
-                "pos": "RL",
+                "pos": "ABBR",
                 "end_char": 33,
                 "id": 5,
                 "text": "GEP"
@@ -144,7 +149,7 @@
               },
               {
                 "start_char": 35,
-                "pos": "PART",
+                "pos": "VCOP",
                 "end_char": 37,
                 "id": 7,
                 "text": "ke"
@@ -158,7 +163,7 @@
               },
               {
                 "start_char": 45,
-                "pos": "CPOSS05",
+                "pos": "POSSC05",
                 "end_char": 47,
                 "id": 9,
                 "text": "la"
@@ -172,7 +177,7 @@
               },
               {
                 "start_char": 56,
-                "pos": "CS05",
+                "pos": "PART",
                 "end_char": 58,
                 "id": 11,
                 "text": "le"
@@ -186,7 +191,7 @@
               },
               {
                 "start_char": 65,
-                "pos": "CPOSS05",
+                "pos": "SC05",
                 "end_char": 67,
                 "id": 13,
                 "text": "la"
@@ -214,7 +219,7 @@
               },
               {
                 "start_char": 84,
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 86,
                 "id": 17,
                 "text": "wa"
@@ -228,7 +233,7 @@
               },
               {
                 "start_char": 96,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 98,
                 "id": 19,
                 "text": "ya"
@@ -263,7 +268,7 @@
               },
               {
                 "start_char": 120,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 122,
                 "id": 24,
                 "text": "ya"
@@ -277,7 +282,7 @@
               },
               {
                 "start_char": 131,
-                "pos": "CPOSS05",
+                "pos": "POSSC05",
                 "end_char": 133,
                 "id": 26,
                 "text": "la"
@@ -291,7 +296,7 @@
               },
               {
                 "start_char": 147,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 149,
                 "id": 28,
                 "text": "ya"
@@ -326,7 +331,7 @@
               },
               {
                 "start_char": 167,
-                "pos": "CS07",
+                "pos": "SC07",
                 "end_char": 169,
                 "id": 33,
                 "text": "se"
@@ -340,14 +345,14 @@
               },
               {
                 "start_char": 180,
-                "pos": "CPOSS07",
+                "pos": "POSSC07",
                 "end_char": 182,
                 "id": 35,
                 "text": "sa"
               },
               {
                 "start_char": 183,
-                "pos": "CN15",
+                "pos": "NPRE",
                 "end_char": 185,
                 "id": 36,
                 "text": "ho"
@@ -389,14 +394,14 @@
               },
               {
                 "start_char": 220,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 222,
                 "id": 42,
                 "text": "ya"
               },
               {
                 "start_char": 223,
-                "pos": "RK",
+                "pos": "ABBR",
                 "end_char": 227,
                 "id": 43,
                 "text": "SMME"
@@ -424,7 +429,7 @@
               },
               {
                 "start_char": 245,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 247,
                 "id": 47,
                 "text": "ya"
@@ -452,7 +457,7 @@
               },
               {
                 "start_char": 266,
-                "pos": "CPOSS04",
+                "pos": "POSSC04",
                 "end_char": 268,
                 "id": 51,
                 "text": "ya"
@@ -466,7 +471,7 @@
               },
               {
                 "start_char": 281,
-                "pos": "CPOSS10",
+                "pos": "POSSC10",
                 "end_char": 284,
                 "id": 53,
                 "text": "tsa"
@@ -487,7 +492,7 @@
               },
               {
                 "start_char": 297,
-                "pos": "CD10",
+                "pos": "DEM10",
                 "end_char": 301,
                 "id": 56,
                 "text": "tseo"
@@ -501,7 +506,7 @@
               },
               {
                 "start_char": 308,
-                "pos": "CPOSS10",
+                "pos": "POSSC10",
                 "end_char": 311,
                 "id": 58,
                 "text": "tsa"

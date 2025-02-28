@@ -40,7 +40,29 @@ formats = ["json", "list", "delimited"]
 
 LOGGER.info("Testing OCR for the followig languages: {0}".format(languages))
 
+def download_ocr_model(lang, server, retry_count=1):
+    """
+    Downloads OCR model if not available, with retries.
+    """
+    for attempt_count in range(retry_count + 1):
+        # Get updated list of available technologies 
+        technologies = server.list_available_techs()
+        print(technologies)
+        if lang in technologies.get("ocr", []):
+            print(f"OCR model for language {lang} is already available.")
+            return
+        print(f"{'Attempting' if attempt_count == 0 else 'Retrying'} download of OCR model for language: {lang}, Attempt {attempt_count+1}")
+        try:
+            server.download_model(language=lang, tech="ocr")
+            print("Download successful.")
+            return
+        except Exception as e:
+            print(f"Error occurred: {e}")
+            if attempt_count == retry_count:
+                print("Max retry attempts reached. Download failed.")
+
 for lang in languages:
+    download_ocr_model(lang, server, retry_count=1)
     if lang not in technologies["ocr"]:
         server.download_model(language=lang, tech="ocr")
     for level in levels:

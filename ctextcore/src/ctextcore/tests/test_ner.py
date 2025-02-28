@@ -40,11 +40,34 @@ formats = ["json", "list", "delimited"]
 
 LOGGER.info("Testing NER for the followig languages: {0}".format(languages))
 
+def download_ner_model(lang, server, retry_count=1):
+    """
+    Downloads NER model if not available, with retries.
+    """
+    for attempt_count in range(retry_count + 1):
+        # Get updated list of available technologies 
+        technologies = server.list_available_techs()
+        print(technologies)
+        if lang in technologies.get("ner", []):
+            print(f"NER model for language {lang} is already available.")
+            return
+        print(f"{'Attempting' if attempt_count == 0 else 'Retrying'} download of NER model for language: {lang}, Attempt {attempt_count+1}")
+        try:
+            server.download_model(language=lang, tech="ner")
+            print("Download successful.")
+            return
+        except Exception as e:
+            print(f"Error occurred: {e}")
+            if attempt_count == retry_count:
+                print("Max retry attempts reached. Download failed.")
+
 for lang in languages:
     if lang not in technologies["ner"]:
         server.download_model(language=lang, tech="ner")
 
 for lang in languages:
+    # if lang not in technologies["ner"]:
+    #     server.download_model(language=lang, tech="ner")
     for level in levels:
         EXPECTED_OUTPUT_DIR = CURRENT_DIR+"/data/expected/{0}_level/ner/".format(level)  # Check
         for output_format in formats:

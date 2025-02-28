@@ -4,11 +4,12 @@
       "p": [
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "CSPERS",
+                "pos": "FOR",
                 "end_char": 2,
                 "ner": "OUT",
                 "id": 1,
@@ -16,7 +17,7 @@
               },
               {
                 "start_char": 3,
-                "pos": "V",
+                "pos": "FOR",
                 "end_char": 10,
                 "ner": "OUT",
                 "id": 2,
@@ -24,7 +25,7 @@
               },
               {
                 "start_char": 11,
-                "pos": "PROABS02",
+                "pos": "FOR",
                 "end_char": 16,
                 "ner": "OUT",
                 "id": 3,
@@ -35,6 +36,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -66,11 +68,12 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 3,
                 "ner": "OUT",
                 "id": 1,
@@ -105,11 +108,12 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 7,
                 "ner": "B-ORG",
                 "id": 1,
@@ -117,7 +121,7 @@
               },
               {
                 "start_char": 8,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 18,
                 "ner": "I-ORG",
                 "id": 2,
@@ -125,7 +129,7 @@
               },
               {
                 "start_char": 19,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 28,
                 "ner": "I-ORG",
                 "id": 3,
@@ -141,9 +145,9 @@
               },
               {
                 "start_char": 30,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 33,
-                "ner": "B-ORG",
+                "ner": "OUT",
                 "id": 5,
                 "text": "GEP"
               },
@@ -181,7 +185,7 @@
               },
               {
                 "start_char": 52,
-                "pos": "CPOSS05",
+                "pos": "POSSC05",
                 "end_char": 54,
                 "ner": "OUT",
                 "id": 10,
@@ -213,7 +217,7 @@
               },
               {
                 "start_char": 75,
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 77,
                 "ner": "OUT",
                 "id": 14,
@@ -229,7 +233,7 @@
               },
               {
                 "start_char": 84,
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 86,
                 "ner": "OUT",
                 "id": 16,
@@ -237,15 +241,15 @@
               },
               {
                 "start_char": 87,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 94,
-                "ner": "B-ORG",
+                "ner": "B-LOC",
                 "id": 17,
                 "text": "Gauteng"
               },
               {
                 "start_char": 95,
-                "pos": "CP15",
+                "pos": "SC17",
                 "end_char": 97,
                 "ner": "OUT",
                 "id": 18,
@@ -253,7 +257,7 @@
               },
               {
                 "start_char": 98,
-                "pos": "CONJ",
+                "pos": "PREPOS",
                 "end_char": 100,
                 "ner": "OUT",
                 "id": 19,
@@ -269,7 +273,7 @@
               },
               {
                 "start_char": 111,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 113,
                 "ner": "OUT",
                 "id": 21,
@@ -279,15 +283,15 @@
                 "start_char": 114,
                 "pos": "N03",
                 "end_char": 121,
-                "ner": "B-ORG",
+                "ner": "OUT",
                 "id": 22,
                 "text": "Muhasho"
               },
               {
                 "start_char": 122,
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 124,
-                "ner": "I-ORG",
+                "ner": "OUT",
                 "id": 23,
                 "text": "wa"
               },
@@ -295,15 +299,15 @@
                 "start_char": 125,
                 "pos": "N09",
                 "end_char": 135,
-                "ner": "I-ORG",
+                "ner": "OUT",
                 "id": 24,
                 "text": "Mveledziso"
               },
               {
                 "start_char": 136,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 138,
-                "ner": "I-ORG",
+                "ner": "OUT",
                 "id": 25,
                 "text": "ya"
               },
@@ -311,7 +315,7 @@
                 "start_char": 139,
                 "pos": "N09",
                 "end_char": 146,
-                "ner": "I-ORG",
+                "ner": "OUT",
                 "id": 26,
                 "text": "Ikonomi"
               },
@@ -325,7 +329,7 @@
               },
               {
                 "start_char": 148,
-                "pos": "CS05",
+                "pos": "SC05",
                 "end_char": 150,
                 "ner": "OUT",
                 "id": 28,
@@ -349,7 +353,7 @@
               },
               {
                 "start_char": 161,
-                "pos": "CREL06",
+                "pos": "RELC06",
                 "end_char": 162,
                 "ner": "OUT",
                 "id": 31,
@@ -365,7 +369,7 @@
               },
               {
                 "start_char": 170,
-                "pos": "CS06",
+                "pos": "SC06",
                 "end_char": 171,
                 "ner": "OUT",
                 "id": 33,
@@ -373,7 +377,7 @@
               },
               {
                 "start_char": 172,
-                "pos": "CN15",
+                "pos": "NPRE",
                 "end_char": 173,
                 "ner": "OUT",
                 "id": 34,
@@ -413,7 +417,7 @@
               },
               {
                 "start_char": 208,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 210,
                 "ner": "OUT",
                 "id": 39,
@@ -421,7 +425,7 @@
               },
               {
                 "start_char": 211,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 215,
                 "ner": "B-ORG",
                 "id": 40,
@@ -437,7 +441,7 @@
               },
               {
                 "start_char": 224,
-                "pos": "CPOSS05",
+                "pos": "POSSC05",
                 "end_char": 226,
                 "ner": "I-ORG",
                 "id": 42,
@@ -445,7 +449,7 @@
               },
               {
                 "start_char": 227,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 234,
                 "ner": "I-ORG",
                 "id": 43,
@@ -461,7 +465,7 @@
               },
               {
                 "start_char": 238,
-                "pos": "CS07",
+                "pos": "SC07",
                 "end_char": 242,
                 "ner": "OUT",
                 "id": 45,
@@ -485,7 +489,7 @@
               },
               {
                 "start_char": 262,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 264,
                 "ner": "OUT",
                 "id": 48,
@@ -493,7 +497,7 @@
               },
               {
                 "start_char": 265,
-                "pos": "CPOSS08",
+                "pos": "POSSC08",
                 "end_char": 268,
                 "ner": "OUT",
                 "id": 49,
@@ -509,7 +513,7 @@
               },
               {
                 "start_char": 279,
-                "pos": "CONJ",
+                "pos": "PREPOS",
                 "end_char": 281,
                 "ner": "OUT",
                 "id": 51,
@@ -525,7 +529,7 @@
               },
               {
                 "start_char": 286,
-                "pos": "CS09",
+                "pos": "SC09",
                 "end_char": 287,
                 "ner": "OUT",
                 "id": 53,
@@ -533,7 +537,7 @@
               },
               {
                 "start_char": 288,
-                "pos": "PARTCOPNEG",
+                "pos": "MORPHNEG",
                 "end_char": 290,
                 "ner": "OUT",
                 "id": 54,
@@ -541,7 +545,7 @@
               },
               {
                 "start_char": 291,
-                "pos": "V",
+                "pos": "PROPSTREL02",
                 "end_char": 294,
                 "ner": "OUT",
                 "id": 55,
@@ -549,7 +553,7 @@
               },
               {
                 "start_char": 295,
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 297,
                 "ner": "OUT",
                 "id": 56,
@@ -576,6 +580,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -596,7 +601,7 @@
               },
               {
                 "start_char": 10,
-                "pos": "CREL14",
+                "pos": "RELC14",
                 "end_char": 12,
                 "ner": "OUT",
                 "id": 3,
@@ -612,9 +617,9 @@
               },
               {
                 "start_char": 21,
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 24,
-                "ner": "B-ORG",
+                "ner": "OUT",
                 "id": 5,
                 "text": "GEP"
               },

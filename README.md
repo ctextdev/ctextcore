@@ -1,18 +1,18 @@
 ## About The Project
 
 This project is an open-source Python package for existing NCHLT core technologies for ten South African 
-languages (Afrikaans, English, isiNdebele, isiXhosa, isiZulu, Sesotho sa Leboa, Sesotho, Setswana, Siswati, Tshivenḓa, Xitsonga). The technologies include the following: Tokenisers, Sentence Separators, Part of Speech Taggers, Named Entity 
-Recognisers, Phrase Chunkers, Optical Character Recognisers, and a Language Identifier.
-Totalling 19 technologies.
+languages (Afrikaans, isiNdebele, isiXhosa, isiZulu, Sesotho sa Leboa, Sesotho, Setswana, Siswati, Tshivenḓa, Xitsonga). The technologies include the following: Tokenisers, Sentence Separators, Part of Speech Taggers, Named Entity 
+Recognisers, Phrase Chunkers, Optical Character Recognisers, Universal Part of Speech Taggers, Lemmatisers, and a Language Identifier. The package also includes a Morphological Analyser for isiNdebele, isiZulu, isiXhosa, and Siswati, totalling 85 technologies.
 
 ## Getting Started
 
-To get a local copy up and running, follow these steps.
+To get a local copy installed and running, follow these steps.
 
 ### Prerequisites
 
 * Python 3.8+ (https://www.python.org/downloads/)
-* Java OpenJDK 11+ (https://openjdk.org)
+* Java OpenJDK 17+ (https://openjdk.org)
+* Requests 2.32.3 (https://pypi.org/project/requests/2.32.3/)
 
 ### Installation
 
@@ -54,10 +54,23 @@ timeout: 60000          # Set the timeout of HTTP requests
 threads: 5              # Set the total number of threads to use
 memory: "4G"            # Set the maximum memory allowed to be used by the server
 be_quiet: False         # Set the logging output from the server
-max_char_length: 10000  # Set the maximum character length
+max_char_length: 10000  # Set the maximum character length 
 
 server = core(port=8081,memory="16G",...)
 ```
+
+### Language codes
+
+* Afrikaans -> af
+* isiNdebele -> nr
+* isiXhosa -> xh
+* isiZulu -> zu
+* Sesotho sa Leboa -> nso
+* Sesotho -> st
+* Setswana -> tn
+* Siswati -> ss
+* Tshivenḓa -> ve
+* Xitsonga -> ts
 
 ### Downloading models
 
@@ -102,7 +115,7 @@ print(output_process)
 
 #### Output formats
 
-The ctextcore package offers three different output formats (JSON, Delimited, Array), the default output format is JSON and can be changed by providing the output_format argument in the process_text method. An extra argument, delimiter, can be used together with the delimited output format to change the delimiter used in the output. The default delimiter is _.
+The ctextcore package offers three different output formats (JSON, Delimited, List), the default output format is JSON and can be changed by providing the output_format argument in the process_text method. An extra argument, delimiter, can be used together with the delimited output format to change the delimiter used in the output. The default delimiter is _.
 
 ```Python
 
@@ -117,13 +130,13 @@ print(output_process)
 ```Python
 
 # JSON
-[{'doc': {'p': {'lid': 'NONE', 'sent': {'tokens': [{'start_char': 0, 'pos': 'PA', 'end_char': 7, 'id': 1, 'text': 'Hierdie'}, {'start_char': 8, 'pos': 'VTHOK', 'end_char': 10, 'id': 2, 'text': 'is'}, {'start_char': 11, 'pos': 'LO', 'end_char': 13, 'id': 3, 'text': "'n"}, {'start_char': 14, 'pos': 'NSE', 'end_char': 26, 'id': 4, 'text': 'voorbeeldsin'}, {'start_char': 27, 'pos': 'SVS', 'end_char': 29, 'id': 5, 'text': 'om'}, {'start_char': 30, 'pos': 'LB', 'end_char': 33, 'id': 6, 'text': 'die'}, {'start_char': 34, 'pos': 'NSE', 'end_char': 49, 'id': 7, 'text': 'funksionaliteit'}, {'start_char': 50, 'pos': 'UPI', 'end_char': 52, 'id': 8, 'text': 'te'}, {'start_char': 53, 'pos': 'VTHSG', 'end_char': 58, 'id': 9, 'text': 'toets'}, {'start_char': 58, 'pos': 'ZE', 'end_char': 59, 'id': 10, 'text': '.'}]}}}}]
+[{'doc': {'p': {'lid': 'NONE', 'tokenised': True, 'sent': {'tokens': [{'start_char': 0, 'pos': 'PA', 'end_char': 7, 'id': 1, 'text': 'Hierdie'}, {'start_char': 8, 'pos': 'VTHOK', 'end_char': 10, 'id': 2, 'text': 'is'}, {'start_char': 11, 'pos': 'LO', 'end_char': 13, 'id': 3, 'text': "'n"}, {'start_char': 14, 'pos': 'NSE', 'end_char': 26, 'id': 4, 'text': 'voorbeeldsin'}, {'start_char': 27, 'pos': 'SVS', 'end_char': 29, 'id': 5, 'text': 'om'}, {'start_char': 30, 'pos': 'LB', 'end_char': 33, 'id': 6, 'text': 'die'}, {'start_char': 34, 'pos': 'NSE', 'end_char': 49, 'id': 7, 'text': 'funksionaliteit'}, {'start_char': 50, 'pos': 'UPI', 'end_char': 52, 'id': 8, 'text': 'te'}, {'start_char': 53, 'pos': 'VTHOG', 'end_char': 58, 'id': 9, 'text': 'toets'}, {'start_char': 58, 'pos': 'ZE', 'end_char': 59, 'id': 10, 'text': '.'}]}}}}]
 
 # List
-[('Hierdie', 'PA'), ('is', 'VTHOK'), ("'n", 'LO'), ('voorbeeldsin', 'NSE'), ('om', 'SVS'), ('die', 'LB'), ('funksionaliteit', 'NSE'), ('te', 'UPI'), ('toets', 'VTHSG'), ('.', 'ZE')]
+[('Hierdie', 'PA'), ('is', 'VTHOK'), ("'n", 'LO'), ('voorbeeldsin', 'NSE'), ('om', 'SVS'), ('die', 'LB'), ('funksionaliteit', 'NSE'), ('te', 'UPI'), ('toets', 'VTHOG'), ('.', 'ZE')]
 
 # Delimited
-['Hierdie|PA', 'is|VTHOK', "'n|LO", 'voorbeeldsin|NSE', 'om|SVS', 'die|LB', 'funksionaliteit|NSE', 'te|UPI', 'toets|VTHSG', '.|ZE']
+['Hierdie|PA', 'is|VTHOK', "'n|LO", 'voorbeeldsin|NSE', 'om|SVS', 'die|LB', 'funksionaliteit|NSE', 'te|UPI', 'toets|VTHOG', '.|ZE']
 
 
 ```
@@ -135,31 +148,34 @@ The ctextcore package uses pytest version 8.0.0 or above as a testing framework 
 ### Running all the unit tests of the ctextcore package
 
 ```sh
-python -m pytest --pyargs ctextcore.tests
+py -m pytest --pyargs ctextcore.tests
 ```
 
 ### Running individual unit tests of the ctextcore package
 
 The ctextcore package contains the following unit tests:
 
-* lid
+* zalid
 * ner
 * ocr
 * pc
 * pos
+* upos
 * sent
 * tok
+* morph
+* lemma
 
 #### Running an individual unit test
 
 ```sh
-python -m pytest --pyargs ctextcore.tests.test_name
+py -m pytest --pyargs ctextcore.tests.test_name
 ```
 
 #### Example
 
 ```sh
-python -m pytest --pyargs ctextcore.tests.test_lid
+py -m pytest --pyargs ctextcore.tests.test_zalid
 ```
 
 ## License
@@ -168,5 +184,5 @@ Licensed under the Apache License, Version 2.0. See `LICENSE.txt` for more infor
 
 ## Contact
 
-Centre for Text Technology (CTexT) - ctextdev@gmail.com - https://humanities.nwu.ac.za/ctext
+Centre for Text Technology (CTexT) - ctext@nwu.ac.za - https://humanities.nwu.ac.za/ctext
 

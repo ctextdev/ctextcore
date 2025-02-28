@@ -3,10 +3,12 @@
     "doc": {
       "p": [
         {
-          "lid": "NONE"
+          "lid": "NONE",
+          "tokenised": true
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -32,6 +34,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -57,6 +60,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -88,6 +92,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {

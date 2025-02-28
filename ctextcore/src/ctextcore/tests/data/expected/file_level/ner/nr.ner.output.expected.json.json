@@ -7,11 +7,12 @@
             "p": [
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "DEM01",
+                      "pos": "CDEM01",
                       "end_char": 5,
                       "ner": "B-MISC",
                       "id": 1,
@@ -27,7 +28,7 @@
                     },
                     {
                       "start_char": 15,
-                      "pos": "PRON15",
+                      "pos": "PROEMP15",
                       "end_char": 20,
                       "ner": "I-MISC",
                       "id": 3,
@@ -38,6 +39,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -50,7 +52,7 @@
                     },
                     {
                       "start_char": 8,
-                      "pos": "P",
+                      "pos": "ADV",
                       "end_char": 19,
                       "ner": "OUT",
                       "id": 2,
@@ -61,11 +63,12 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "COP",
+                      "pos": "INTER",
                       "end_char": 5,
                       "ner": "OUT",
                       "id": 1,
@@ -73,7 +76,7 @@
                     },
                     {
                       "start_char": 6,
-                      "pos": "N",
+                      "pos": "N04",
                       "end_char": 8,
                       "ner": "OUT",
                       "id": 2,
@@ -81,7 +84,7 @@
                     },
                     {
                       "start_char": 9,
-                      "pos": "ADV",
+                      "pos": "ABBR",
                       "end_char": 12,
                       "ner": "B-MISC",
                       "id": 3,
@@ -89,7 +92,7 @@
                     },
                     {
                       "start_char": 12,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 13,
                       "ner": "OUT",
                       "id": 4,
@@ -100,11 +103,12 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "N05",
+                      "pos": "N04",
                       "end_char": 8,
                       "ner": "OUT",
                       "id": 1,
@@ -112,7 +116,7 @@
                     },
                     {
                       "start_char": 9,
-                      "pos": "V",
+                      "pos": "FOR",
                       "end_char": 19,
                       "ner": "B-MISC",
                       "id": 2,
@@ -120,7 +124,7 @@
                     },
                     {
                       "start_char": 20,
-                      "pos": "N",
+                      "pos": "FOR",
                       "end_char": 29,
                       "ner": "I-MISC",
                       "id": 3,
@@ -128,7 +132,7 @@
                     },
                     {
                       "start_char": 30,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 31,
                       "ner": "OUT",
                       "id": 4,
@@ -136,7 +140,7 @@
                     },
                     {
                       "start_char": 31,
-                      "pos": "ADV",
+                      "pos": "N04",
                       "end_char": 36,
                       "ner": "B-MISC",
                       "id": 5,
@@ -144,7 +148,7 @@
                     },
                     {
                       "start_char": 36,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 37,
                       "ner": "OUT",
                       "id": 6,
@@ -152,7 +156,7 @@
                     },
                     {
                       "start_char": 38,
-                      "pos": "N",
+                      "pos": "COP",
                       "end_char": 47,
                       "ner": "B-MISC",
                       "id": 7,
@@ -160,7 +164,7 @@
                     },
                     {
                       "start_char": 48,
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 58,
                       "ner": "I-MISC",
                       "id": 8,
@@ -176,7 +180,7 @@
                     },
                     {
                       "start_char": 65,
-                      "pos": "V",
+                      "pos": "POSS01",
                       "end_char": 76,
                       "ner": "I-MISC",
                       "id": 10,
@@ -184,7 +188,7 @@
                     },
                     {
                       "start_char": 77,
-                      "pos": "LOC",
+                      "pos": "POSS04",
                       "end_char": 86,
                       "ner": "I-MISC",
                       "id": 11,
@@ -192,7 +196,7 @@
                     },
                     {
                       "start_char": 86,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 87,
                       "ner": "OUT",
                       "id": 12,
@@ -200,7 +204,7 @@
                     },
                     {
                       "start_char": 88,
-                      "pos": "P",
+                      "pos": "ADV",
                       "end_char": 96,
                       "ner": "OUT",
                       "id": 13,
@@ -208,7 +212,7 @@
                     },
                     {
                       "start_char": 97,
-                      "pos": "N07",
+                      "pos": "POSS15",
                       "end_char": 106,
                       "ner": "OUT",
                       "id": 14,
@@ -216,7 +220,7 @@
                     },
                     {
                       "start_char": 107,
-                      "pos": "LOC",
+                      "pos": "POSS05",
                       "end_char": 116,
                       "ner": "B-ORG",
                       "id": 15,
@@ -224,7 +228,7 @@
                     },
                     {
                       "start_char": 117,
-                      "pos": "V",
+                      "pos": "POSS03",
                       "end_char": 131,
                       "ner": "I-ORG",
                       "id": 16,
@@ -232,7 +236,7 @@
                     },
                     {
                       "start_char": 132,
-                      "pos": "N03",
+                      "pos": "POSS10",
                       "end_char": 140,
                       "ner": "I-ORG",
                       "id": 17,
@@ -240,7 +244,7 @@
                     },
                     {
                       "start_char": 140,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 141,
                       "ner": "OUT",
                       "id": 18,
@@ -248,7 +252,7 @@
                     },
                     {
                       "start_char": 142,
-                      "pos": "V",
+                      "pos": "ADV",
                       "end_char": 153,
                       "ner": "OUT",
                       "id": 19,
@@ -256,7 +260,7 @@
                     },
                     {
                       "start_char": 154,
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 165,
                       "ner": "OUT",
                       "id": 20,
@@ -264,7 +268,7 @@
                     },
                     {
                       "start_char": 166,
-                      "pos": "V",
+                      "pos": "POSS05",
                       "end_char": 176,
                       "ner": "OUT",
                       "id": 21,
@@ -272,7 +276,7 @@
                     },
                     {
                       "start_char": 177,
-                      "pos": "V",
+                      "pos": "N06",
                       "end_char": 185,
                       "ner": "B-MISC",
                       "id": 22,
@@ -280,7 +284,7 @@
                     },
                     {
                       "start_char": 186,
-                      "pos": "ADV",
+                      "pos": "N05",
                       "end_char": 193,
                       "ner": "OUT",
                       "id": 23,
@@ -296,7 +300,7 @@
                     },
                     {
                       "start_char": 200,
-                      "pos": "P",
+                      "pos": "ADV",
                       "end_char": 209,
                       "ner": "OUT",
                       "id": 25,
@@ -304,7 +308,7 @@
                     },
                     {
                       "start_char": 210,
-                      "pos": "LOC",
+                      "pos": "NLOC",
                       "end_char": 222,
                       "ner": "B-MISC",
                       "id": 26,
@@ -312,7 +316,7 @@
                     },
                     {
                       "start_char": 223,
-                      "pos": "LOC",
+                      "pos": "POSS04",
                       "end_char": 232,
                       "ner": "I-MISC",
                       "id": 27,
@@ -328,7 +332,7 @@
                     },
                     {
                       "start_char": 242,
-                      "pos": "P",
+                      "pos": "ADV",
                       "end_char": 253,
                       "ner": "OUT",
                       "id": 29,
@@ -352,7 +356,7 @@
                     },
                     {
                       "start_char": 268,
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 278,
                       "ner": "OUT",
                       "id": 32,
@@ -360,7 +364,7 @@
                     },
                     {
                       "start_char": 279,
-                      "pos": "COP",
+                      "pos": "N04",
                       "end_char": 285,
                       "ner": "OUT",
                       "id": 33,
@@ -368,7 +372,7 @@
                     },
                     {
                       "start_char": 285,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 286,
                       "ner": "OUT",
                       "id": 34,
@@ -379,11 +383,12 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
-                      "pos": "COP",
+                      "pos": "N15",
                       "end_char": 8,
                       "ner": "OUT",
                       "id": 1,
@@ -399,7 +404,7 @@
                     },
                     {
                       "start_char": 20,
-                      "pos": "ADV",
+                      "pos": "N09",
                       "end_char": 25,
                       "ner": "B-MISC",
                       "id": 3,
@@ -407,7 +412,7 @@
                     },
                     {
                       "start_char": 25,
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 26,
                       "ner": "OUT",
                       "id": 4,

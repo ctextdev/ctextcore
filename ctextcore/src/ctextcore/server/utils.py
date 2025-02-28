@@ -11,7 +11,7 @@ class Utils():
     
     """
     
-    __token_technologies__ = ['pos', 'ner', 'pc', 'lemma']
+    __token_technologies__ = ['pos', 'ner', 'pc', 'lemma', 'morph', 'upos']
     
     def parse_to_list(input: json, tech: str, delimiter: str=None):
         """
@@ -84,6 +84,8 @@ class Utils():
                                 return [(str(val['text']), val[tech])]
                     else:
                         result = [str(item['text']) for item in val]
+            elif (type(val) is bool):
+                continue
             else:
                 result.append(Utils.parse_to_list(val, tech, delimiter))
 
@@ -108,7 +110,10 @@ class Utils():
         elif type(result) is dict:
             for key, val in result.items():
                 if key == 'tokens':
-                    token_values = [str(t['text']) for t in val]
+                    if type(val) is list:
+                        token_values = [str(t['text']) for t in val]
+                    else:
+                        token_values = val['text']
                     return ' '.join(token_values)
         
         return orig_string

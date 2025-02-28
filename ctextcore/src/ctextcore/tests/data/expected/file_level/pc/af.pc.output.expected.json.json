@@ -7,6 +7,7 @@
             "p": [
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -20,7 +21,7 @@
                     {
                       "start_char": 4,
                       "pc": "I-NOUN",
-                      "pos": "RS",
+                      "pos": "RL",
                       "end_char": 5,
                       "id": 2,
                       "text": "U"
@@ -38,6 +39,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -69,6 +71,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -108,6 +111,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -121,7 +125,7 @@
                     {
                       "start_char": 4,
                       "pc": "I-NOUN",
-                      "pos": "NA",
+                      "pos": "NEE",
                       "end_char": 11,
                       "id": 2,
                       "text": "Gauteng"
@@ -129,7 +133,7 @@
                     {
                       "start_char": 12,
                       "pc": "I-NOUN",
-                      "pos": "ASA",
+                      "pos": "NEE",
                       "end_char": 22,
                       "id": 3,
                       "text": "Enterprise"
@@ -137,7 +141,7 @@
                     {
                       "start_char": 23,
                       "pc": "I-NOUN",
-                      "pos": "NSE",
+                      "pos": "NEE",
                       "end_char": 32,
                       "id": 4,
                       "text": "Propeller"
@@ -265,7 +269,7 @@
                     {
                       "start_char": 117,
                       "pc": "B-NOUN",
-                      "pos": "NSE",
+                      "pos": "NA",
                       "end_char": 127,
                       "id": 20,
                       "text": "beskerming"
@@ -433,7 +437,7 @@
                     {
                       "start_char": 264,
                       "pc": "I-NOUN",
-                      "pos": "NA",
+                      "pos": "UPW",
                       "end_char": 271,
                       "id": 41,
                       "text": "Gauteng"

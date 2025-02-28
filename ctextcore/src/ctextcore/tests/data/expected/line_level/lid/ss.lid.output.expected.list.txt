@@ -1,1 +1,1 @@
-[['SiSwati'], ['SiSwati'], ['SiSwati'], ['SiSwati'], ['isiZulu']]
+[['Siswati'], ['Siswati'], ['Siswati'], ['Siswati'], ['isiZulu']]

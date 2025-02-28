@@ -4,12 +4,13 @@
       "p": [
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 2,
                 "id": 1,
                 "text": "HA"
@@ -17,7 +18,7 @@
               {
                 "start_char": 3,
                 "pc": "B-PREP",
-                "pos": "CN15",
+                "pos": "FOR",
                 "end_char": 5,
                 "id": 2,
                 "text": "KU"
@@ -25,7 +26,7 @@
               {
                 "start_char": 6,
                 "pc": "B-NOUN",
-                "pos": "V",
+                "pos": "FOR",
                 "end_char": 15,
                 "id": 3,
                 "text": "KORHOKELA"
@@ -35,6 +36,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -48,7 +50,7 @@
               {
                 "start_char": 10,
                 "pc": "OUT",
-                "pos": "PART",
+                "pos": "CONJ",
                 "end_char": 12,
                 "id": 2,
                 "text": "na"
@@ -66,12 +68,13 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
                 "pc": "OUT",
-                "pos": "QUE",
+                "pos": "INTER",
                 "end_char": 4,
                 "id": 1,
                 "text": "Xana"
@@ -87,7 +90,7 @@
               {
                 "start_char": 7,
                 "pc": "B-NOUN",
-                "pos": "QUE",
+                "pos": "INTER",
                 "end_char": 11,
                 "id": 3,
                 "text": "yini"
@@ -95,7 +98,7 @@
               {
                 "start_char": 12,
                 "pc": "I-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 15,
                 "id": 4,
                 "text": "GEP"
@@ -113,6 +116,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -126,7 +130,7 @@
               {
                 "start_char": 11,
                 "pc": "B-PREP",
-                "pos": "CPOSS07",
+                "pos": "POSSC07",
                 "end_char": 13,
                 "id": 2,
                 "text": "xa"
@@ -142,7 +146,7 @@
               {
                 "start_char": 23,
                 "pc": "B-PREP",
-                "pos": "CPOSS06",
+                "pos": "POSSC06",
                 "end_char": 25,
                 "id": 4,
                 "text": "ya"
@@ -150,7 +154,7 @@
               {
                 "start_char": 26,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 33,
                 "id": 5,
                 "text": "Gauteng"
@@ -166,7 +170,7 @@
               {
                 "start_char": 36,
                 "pc": "OUT",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 43,
                 "id": 7,
                 "text": "Gauteng"
@@ -174,7 +178,7 @@
               {
                 "start_char": 44,
                 "pc": "OUT",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 54,
                 "id": 8,
                 "text": "Enterprise"
@@ -182,7 +186,7 @@
               {
                 "start_char": 55,
                 "pc": "OUT",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 64,
                 "id": 9,
                 "text": "Propeller"
@@ -198,7 +202,7 @@
               {
                 "start_char": 66,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 69,
                 "id": 11,
                 "text": "GEP"
@@ -230,7 +234,7 @@
               {
                 "start_char": 81,
                 "pc": "OUT",
-                "pos": "CD07",
+                "pos": "DEM07",
                 "end_char": 85,
                 "id": 15,
                 "text": "lexi"
@@ -262,7 +266,7 @@
               {
                 "start_char": 109,
                 "pc": "B-PREP",
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 111,
                 "id": 19,
                 "text": "wa"
@@ -278,7 +282,7 @@
               {
                 "start_char": 126,
                 "pc": "B-PREP",
-                "pos": "CPOSS07",
+                "pos": "POSSC07",
                 "end_char": 128,
                 "id": 21,
                 "text": "xa"
@@ -286,7 +290,7 @@
               {
                 "start_char": 129,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 136,
                 "id": 22,
                 "text": "Gauteng"
@@ -310,7 +314,7 @@
               {
                 "start_char": 141,
                 "pc": "B-VERB",
-                "pos": "CN15",
+                "pos": "NPRE",
                 "end_char": 143,
                 "id": 25,
                 "text": "ku"
@@ -334,7 +338,7 @@
               {
                 "start_char": 161,
                 "pc": "B-PREP",
-                "pos": "CPOSS08",
+                "pos": "POSSC08",
                 "end_char": 164,
                 "id": 28,
                 "text": "swa"
@@ -350,7 +354,7 @@
               {
                 "start_char": 174,
                 "pc": "B-PREP",
-                "pos": "CPOSS09",
+                "pos": "POSSC09",
                 "end_char": 176,
                 "id": 30,
                 "text": "ya"
@@ -366,7 +370,7 @@
               {
                 "start_char": 188,
                 "pc": "B-PREP",
-                "pos": "CPOSS03",
+                "pos": "POSSC03",
                 "end_char": 190,
                 "id": 32,
                 "text": "wa"
@@ -374,7 +378,7 @@
               {
                 "start_char": 191,
                 "pc": "B-NOUN",
-                "pos": "N09",
+                "pos": "N03",
                 "end_char": 199,
                 "id": 33,
                 "text": "Ikhonomi"
@@ -406,7 +410,7 @@
               {
                 "start_char": 212,
                 "pc": "B-PREP",
-                "pos": "CPOSS07",
+                "pos": "POSSC07",
                 "end_char": 214,
                 "id": 37,
                 "text": "xo"
@@ -430,7 +434,7 @@
               {
                 "start_char": 231,
                 "pc": "OUT",
-                "pos": "CPOSS03",
+                "pos": "CONJ",
                 "end_char": 233,
                 "id": 40,
                 "text": "na"
@@ -446,7 +450,7 @@
               {
                 "start_char": 243,
                 "pc": "B-PREP",
-                "pos": "CONJ",
+                "pos": "NLOC",
                 "end_char": 246,
                 "id": 42,
                 "text": "eka"
@@ -478,7 +482,7 @@
               {
                 "start_char": 272,
                 "pc": "B-PREP",
-                "pos": "CPOSS07",
+                "pos": "POSSC07",
                 "end_char": 274,
                 "id": 46,
                 "text": "xa"
@@ -486,7 +490,7 @@
               {
                 "start_char": 275,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 282,
                 "id": 47,
                 "text": "Gauteng"
@@ -502,7 +506,7 @@
               {
                 "start_char": 286,
                 "pc": "B-VERB",
-                "pos": "CN15",
+                "pos": "NPRE",
                 "end_char": 288,
                 "id": 49,
                 "text": "ku"
@@ -534,7 +538,7 @@
               {
                 "start_char": 307,
                 "pc": "OUT",
-                "pos": "CD08",
+                "pos": "DEM08",
                 "end_char": 312,
                 "id": 53,
                 "text": "leswi"
@@ -576,12 +580,13 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
                 "pc": "B-NOUN",
-                "pos": "QUE",
+                "pos": "INTER",
                 "end_char": 4,
                 "id": 1,
                 "text": "Xana"
@@ -597,7 +602,7 @@
               {
                 "start_char": 17,
                 "pc": "B-PREP",
-                "pos": "CPOSS17",
+                "pos": "POSSC17",
                 "end_char": 19,
                 "id": 3,
                 "text": "ka"
@@ -605,7 +610,7 @@
               {
                 "start_char": 20,
                 "pc": "B-NOUN",
-                "pos": "QUE",
+                "pos": "INTER",
                 "end_char": 24,
                 "id": 4,
                 "text": "yini"
@@ -613,7 +618,7 @@
               {
                 "start_char": 25,
                 "pc": "B-VERB",
-                "pos": "CN15",
+                "pos": "NPRE",
                 "end_char": 27,
                 "id": 5,
                 "text": "ku"
@@ -629,7 +634,7 @@
               {
                 "start_char": 42,
                 "pc": "B-NOUN",
-                "pos": "RV",
+                "pos": "FOR",
                 "end_char": 45,
                 "id": 7,
                 "text": "GEP"

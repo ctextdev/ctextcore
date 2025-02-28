@@ -4,6 +4,7 @@
       "p": [
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -15,14 +16,14 @@
               },
               {
                 "start_char": 11,
-                "pos": "V",
+                "pos": "N15",
                 "end_char": 18,
                 "id": 2,
                 "text": "UKUSIZA"
               },
               {
                 "start_char": 19,
-                "pos": "PRON02",
+                "pos": "POSS03",
                 "end_char": 23,
                 "id": 3,
                 "text": "WENA"
@@ -32,6 +33,7 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
@@ -43,7 +45,7 @@
               },
               {
                 "start_char": 8,
-                "pos": "N10",
+                "pos": "ADV",
                 "end_char": 20,
                 "id": 2,
                 "text": "nezimpendulo"
@@ -53,25 +55,26 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "INT",
+                "pos": "INTER",
                 "end_char": 4,
                 "id": 1,
                 "text": "Yini"
               },
               {
                 "start_char": 5,
-                "pos": "N",
+                "pos": "N09",
                 "end_char": 10,
                 "id": 2,
                 "text": "i-GEP"
               },
               {
                 "start_char": 10,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 11,
                 "id": 3,
                 "text": "?"
@@ -81,88 +84,89 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "N",
+                "pos": "N09",
                 "end_char": 9,
                 "id": 1,
                 "text": "I-Gauteng"
               },
               {
                 "start_char": 10,
-                "pos": "V",
+                "pos": "REL",
                 "end_char": 20,
                 "id": 2,
                 "text": "Enterprise"
               },
               {
                 "start_char": 21,
-                "pos": "N",
+                "pos": "FOR",
                 "end_char": 30,
                 "id": 3,
                 "text": "Propeller"
               },
               {
                 "start_char": 31,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 32,
                 "id": 4,
                 "text": "("
               },
               {
                 "start_char": 32,
-                "pos": "ADV",
+                "pos": "ABBR",
                 "end_char": 35,
                 "id": 5,
                 "text": "GEP"
               },
               {
                 "start_char": 35,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 36,
                 "id": 6,
                 "text": ")"
               },
               {
                 "start_char": 37,
-                "pos": "N09",
+                "pos": "COP",
                 "end_char": 48,
                 "id": 7,
                 "text": "yiNhlangano"
               },
               {
                 "start_char": 49,
-                "pos": "V",
+                "pos": "REL",
                 "end_char": 60,
                 "id": 8,
                 "text": "eyasungulwa"
               },
               {
                 "start_char": 61,
-                "pos": "N01",
+                "pos": "COP",
                 "end_char": 72,
                 "id": 9,
                 "text": "nguHulumeni"
               },
               {
                 "start_char": 73,
-                "pos": "N07",
+                "pos": "POSS01",
                 "end_char": 85,
                 "id": 10,
                 "text": "Wesifundazwe"
               },
               {
                 "start_char": 86,
-                "pos": "POS",
+                "pos": "POSS07",
                 "end_char": 97,
                 "id": 11,
                 "text": "saseGauteng"
               },
               {
                 "start_char": 97,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 98,
                 "id": 12,
                 "text": ","
@@ -176,28 +180,28 @@
               },
               {
                 "start_char": 109,
-                "pos": "N03",
+                "pos": "POSS15",
                 "end_char": 118,
                 "id": 14,
                 "text": "koMnyango"
               },
               {
                 "start_char": 119,
-                "pos": "V",
+                "pos": "POSS03",
                 "end_char": 136,
                 "id": 15,
                 "text": "Wezokuthuthukiswa"
               },
               {
                 "start_char": 137,
-                "pos": "N03",
+                "pos": "POSS15",
                 "end_char": 145,
                 "id": 16,
                 "text": "Komnotho"
               },
               {
                 "start_char": 145,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 146,
                 "id": 17,
                 "text": ","
@@ -225,28 +229,28 @@
               },
               {
                 "start_char": 172,
-                "pos": "V",
+                "pos": "REL",
                 "end_char": 185,
                 "id": 21,
                 "text": "elikhethekile"
               },
               {
                 "start_char": 186,
-                "pos": "V",
+                "pos": "POSS05",
                 "end_char": 198,
                 "id": 22,
                 "text": "lokuhlinzeka"
               },
               {
                 "start_char": 199,
-                "pos": "N",
+                "pos": "N06",
                 "end_char": 207,
                 "id": 23,
                 "text": "ama-SMME"
               },
               {
                 "start_char": 208,
-                "pos": "P",
+                "pos": "ADV",
                 "end_char": 219,
                 "id": 24,
                 "text": "ngokwesekwa"
@@ -260,28 +264,28 @@
               },
               {
                 "start_char": 226,
-                "pos": "N09",
+                "pos": "ADV",
                 "end_char": 236,
                 "id": 26,
                 "text": "nentuthuko"
               },
               {
                 "start_char": 237,
-                "pos": "LOC",
+                "pos": "NLOC",
                 "end_char": 250,
                 "id": 27,
                 "text": "eSifundazweni"
               },
               {
                 "start_char": 251,
-                "pos": "POS",
+                "pos": "POSS07",
                 "end_char": 262,
                 "id": 28,
                 "text": "saseGauteng"
               },
               {
                 "start_char": 263,
-                "pos": "N10",
+                "pos": "ADV",
                 "end_char": 272,
                 "id": 29,
                 "text": "ngezimali"
@@ -302,7 +306,7 @@
               },
               {
                 "start_char": 293,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 294,
                 "id": 32,
                 "text": "."
@@ -312,32 +316,33 @@
         },
         {
           "lid": "NONE",
+          "tokenised": true,
           "sent": {
             "tokens": [
               {
                 "start_char": 0,
-                "pos": "V",
+                "pos": "N15",
                 "end_char": 7,
                 "id": 1,
                 "text": "Kungani"
               },
               {
                 "start_char": 8,
-                "pos": "N",
+                "pos": "N09",
                 "end_char": 13,
                 "id": 2,
                 "text": "i-GEP"
               },
               {
                 "start_char": 14,
-                "pos": "V",
+                "pos": "POSS09",
                 "end_char": 24,
                 "id": 3,
                 "text": "yasungulwa"
               },
               {
                 "start_char": 24,
-                "pos": "PUNCT",
+                "pos": "PUNC",
                 "end_char": 25,
                 "id": 4,
                 "text": "?"

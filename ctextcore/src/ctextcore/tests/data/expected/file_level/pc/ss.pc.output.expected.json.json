@@ -7,12 +7,13 @@
             "p": [
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
                       "pc": "B-NOUN",
-                      "pos": "ADV",
+                      "pos": "V",
                       "end_char": 6,
                       "id": 1,
                       "text": "IKHONA"
@@ -28,7 +29,7 @@
                     {
                       "start_char": 12,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "N09",
                       "end_char": 19,
                       "id": 3,
                       "text": "IKUSITE"
@@ -38,12 +39,13 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
                       "pc": "B-NOUN",
-                      "pos": "N",
+                      "pos": "N04",
                       "end_char": 7,
                       "id": 1,
                       "text": "Imibuto"
@@ -61,12 +63,13 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
                       "pc": "B-NOUN",
-                      "pos": "P",
+                      "pos": "COP",
                       "end_char": 7,
                       "id": 1,
                       "text": "Ngubani"
@@ -74,7 +77,7 @@
                     {
                       "start_char": 8,
                       "pc": "B-NOUN",
-                      "pos": "ADV",
+                      "pos": "ABBR",
                       "end_char": 11,
                       "id": 2,
                       "text": "GEP"
@@ -82,7 +85,7 @@
                     {
                       "start_char": 11,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 12,
                       "id": 3,
                       "text": "?"
@@ -92,12 +95,13 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
                       "start_char": 0,
                       "pc": "B-NOUN",
-                      "pos": "P",
+                      "pos": "N09",
                       "end_char": 8,
                       "id": 1,
                       "text": "IGauteng"
@@ -113,7 +117,7 @@
                     {
                       "start_char": 20,
                       "pc": "B-NOUN",
-                      "pos": "N",
+                      "pos": "NPP",
                       "end_char": 29,
                       "id": 3,
                       "text": "Propeller"
@@ -121,7 +125,7 @@
                     {
                       "start_char": 30,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 31,
                       "id": 4,
                       "text": "("
@@ -129,7 +133,7 @@
                     {
                       "start_char": 31,
                       "pc": "B-NOUN",
-                      "pos": "ADV",
+                      "pos": "ABBR",
                       "end_char": 34,
                       "id": 5,
                       "text": "GEP"
@@ -137,7 +141,7 @@
                     {
                       "start_char": 34,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 35,
                       "id": 6,
                       "text": ")"
@@ -145,7 +149,7 @@
                     {
                       "start_char": 36,
                       "pc": "B-VERB",
-                      "pos": "P",
+                      "pos": "COP",
                       "end_char": 45,
                       "id": 7,
                       "text": "yi-Ejensi"
@@ -153,7 +157,7 @@
                     {
                       "start_char": 46,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 58,
                       "id": 8,
                       "text": "leyasungulwa"
@@ -161,7 +165,7 @@
                     {
                       "start_char": 59,
                       "pc": "B-NOUN",
-                      "pos": "N",
+                      "pos": "COP",
                       "end_char": 71,
                       "id": 9,
                       "text": "nguHulumende"
@@ -169,7 +173,7 @@
                     {
                       "start_char": 72,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "POSS01",
                       "end_char": 82,
                       "id": 10,
                       "text": "weSifundza"
@@ -177,7 +181,7 @@
                     {
                       "start_char": 83,
                       "pc": "B-NOUN",
-                      "pos": "POS07",
+                      "pos": "POSS07",
                       "end_char": 94,
                       "id": 11,
                       "text": "saseGauteng"
@@ -185,7 +189,7 @@
                     {
                       "start_char": 94,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 95,
                       "id": 12,
                       "text": ","
@@ -193,7 +197,7 @@
                     {
                       "start_char": 96,
                       "pc": "B-NOUN",
-                      "pos": "P",
+                      "pos": "ADV",
                       "end_char": 104,
                       "id": 13,
                       "text": "ngaphasi"
@@ -201,7 +205,7 @@
                     {
                       "start_char": 105,
                       "pc": "B-NOUN",
-                      "pos": "POS",
+                      "pos": "POSS15",
                       "end_char": 115,
                       "id": 14,
                       "text": "kweluphiko"
@@ -209,7 +213,7 @@
                     {
                       "start_char": 116,
                       "pc": "B-NOUN",
-                      "pos": "LOC",
+                      "pos": "POSS11",
                       "end_char": 125,
                       "id": 15,
                       "text": "lweLitiko"
@@ -217,7 +221,7 @@
                     {
                       "start_char": 126,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 141,
                       "id": 16,
                       "text": "Lekutfutfukiswa"
@@ -225,7 +229,7 @@
                     {
                       "start_char": 142,
                       "pc": "B-NOUN",
-                      "pos": "N",
+                      "pos": "POSS15",
                       "end_char": 151,
                       "id": 17,
                       "text": "Kwemnotfo"
@@ -233,7 +237,7 @@
                     {
                       "start_char": 151,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 152,
                       "id": 18,
                       "text": ","
@@ -241,7 +245,7 @@
                     {
                       "start_char": 153,
                       "pc": "B-VERB",
-                      "pos": "V",
+                      "pos": "ADV",
                       "end_char": 163,
                       "id": 19,
                       "text": "ngeligunya"
@@ -249,7 +253,7 @@
                     {
                       "start_char": 164,
                       "pc": "B-NOUN",
-                      "pos": "ADV",
+                      "pos": "IDEO",
                       "end_char": 168,
                       "id": 20,
                       "text": "ngco"
@@ -257,7 +261,7 @@
                     {
                       "start_char": 169,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 177,
                       "id": 21,
                       "text": "lekusita"
@@ -265,7 +269,7 @@
                     {
                       "start_char": 178,
                       "pc": "B-NOUN",
-                      "pos": "POS",
+                      "pos": "N06",
                       "end_char": 186,
                       "id": 22,
                       "text": "ema-SMME"
@@ -273,7 +277,7 @@
                     {
                       "start_char": 187,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 188,
                       "id": 23,
                       "text": "("
@@ -289,7 +293,7 @@
                     {
                       "start_char": 201,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "REL",
                       "end_char": 211,
                       "id": 25,
                       "text": "lasafufusa"
@@ -297,7 +301,7 @@
                     {
                       "start_char": 211,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 212,
                       "id": 26,
                       "text": ")"
@@ -313,7 +317,7 @@
                     {
                       "start_char": 228,
                       "pc": "B-NOUN",
-                      "pos": "V",
+                      "pos": "N07",
                       "end_char": 236,
                       "id": 28,
                       "text": "Sifundza"
@@ -321,7 +325,7 @@
                     {
                       "start_char": 237,
                       "pc": "B-NOUN",
-                      "pos": "POS07",
+                      "pos": "POSS07",
                       "end_char": 248,
                       "id": 29,
                       "text": "saseGauteng"
@@ -329,7 +333,7 @@
                     {
                       "start_char": 249,
                       "pc": "B-VERB",
-                      "pos": "N",
+                      "pos": "ADV",
                       "end_char": 263,
                       "id": 30,
                       "text": "ngekusebentisa"
@@ -337,7 +341,7 @@
                     {
                       "start_char": 264,
                       "pc": "B-NOUN",
-                      "pos": "N00",
+                      "pos": "N10",
                       "end_char": 272,
                       "id": 31,
                       "text": "tindlela"
@@ -345,7 +349,7 @@
                     {
                       "start_char": 273,
                       "pc": "B-VERB",
-                      "pos": "POS",
+                      "pos": "POSS10",
                       "end_char": 281,
                       "id": 32,
                       "text": "tekusita"
@@ -353,7 +357,7 @@
                     {
                       "start_char": 282,
                       "pc": "B-NOUN",
-                      "pos": "N09",
+                      "pos": "ADV",
                       "end_char": 289,
                       "id": 33,
                       "text": "ngemali"
@@ -361,7 +365,7 @@
                     {
                       "start_char": 290,
                       "pc": "OUT",
-                      "pos": "ADV",
+                      "pos": "CONJ",
                       "end_char": 295,
                       "id": 34,
                       "text": "kanye"
@@ -377,7 +381,7 @@
                     {
                       "start_char": 303,
                       "pc": "B-VERB",
-                      "pos": "N",
+                      "pos": "REL",
                       "end_char": 314,
                       "id": 36,
                       "text": "letingasiyo"
@@ -393,7 +397,7 @@
                     {
                       "start_char": 320,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 321,
                       "id": 38,
                       "text": "."
@@ -403,6 +407,7 @@
               },
               {
                 "lid": "NONE",
+                "tokenised": true,
                 "sent": {
                   "tokens": [
                     {
@@ -416,7 +421,7 @@
                     {
                       "start_char": 15,
                       "pc": "B-NOUN",
-                      "pos": "N",
+                      "pos": "N09",
                       "end_char": 20,
                       "id": 2,
                       "text": "i-GEP"
@@ -424,7 +429,7 @@
                     {
                       "start_char": 20,
                       "pc": "OUT",
-                      "pos": "PUNCT",
+                      "pos": "PUNC",
                       "end_char": 21,
                       "id": 3,
                       "text": "?"
